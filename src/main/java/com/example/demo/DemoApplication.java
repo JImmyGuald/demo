@@ -19,5 +19,10 @@ public class DemoApplication {
 	public String test() {
 		return "test";
 	}
+	
+	@PostMapping("/test2")
+	public String test2() {
+		return "test2";
+	}
 
 }
